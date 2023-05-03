@@ -1,0 +1,10 @@
+<h1>Welcome Home</h1>
+
+<ul>
+  <li> <span>This is a Homepage, Can be accessed by Members as well as Admin</span></li>
+  <li><span>only Admin can access Summary Page</span> </li>
+</ul>
+
+<button *ngIf="role === 'admin'" [routerLink]="['/summary']">Summary</button>
+
+<button (click) = 'logout()'>Logout</button>

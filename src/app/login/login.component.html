@@ -1,0 +1,27 @@
+<h1>Login Page</h1>
+<form (ngSubmit)="onSubmit()">
+  <label> Email: </label>
+  <input type="email" [(ngModel)]="email" name="email" required />
+
+  <label> Password: </label>
+  <input type="password" [(ngModel)]="password" name="password" required />
+  <button type="submit">Submit</button>
+</form>
+
+<div class="data">
+  <h3>Use one of the following credentials to login</h3>
+  <ul>
+    <li>
+      <strong> email:</strong> user1@localhost
+      <strong> password:</strong> user1@12345678 <strong> role: </strong>member
+    </li>
+    <li>
+      <strong> email:</strong> user2@localhost
+      <strong> password:</strong> user2@12345678 <strong> role: </strong>member
+    </li>
+    <li>
+      <strong> email:</strong> admin1@localhost
+      <strong> password:</strong> admin1@87651234 <strong> role: </strong>admin
+    </li>
+  </ul>
+</div>

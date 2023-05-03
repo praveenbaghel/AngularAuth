@@ -1,0 +1,41 @@
+h1{
+    margin: 5%;
+    
+}
+
+form{
+    align-items: center;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+label{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 0;
+    text-align: left;
+    
+}
+input {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    margin-top: 20px;
+}
+ul{
+    margin-top: 20px;
+}
+li{
+    margin: 10px;
+}
+
+.data{
+    border-radius: 10px;
+    padding: 12px;
+    margin-left: 10%;
+    width:80%;
+    box-shadow: 4px 4px 10px black;
+}

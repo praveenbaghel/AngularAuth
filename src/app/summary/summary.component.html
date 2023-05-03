@@ -1,0 +1,10 @@
+<h1>Users Summary</h1>
+<ng-container *ngFor="let log of usersLogs">
+    <div class="users">
+        
+        <p>User: {{log.email}}</p>
+        <p>Last Login: {{log.time}}</p>
+        <p>No Of Times Logged in: {{log.loginLog}}</p>
+   
+    </div>
+  </ng-container>
